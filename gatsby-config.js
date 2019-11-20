@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `FunctionalCode`,
+    title: `functionalCode`,
     author: `Konrad Siczek`,
     description: `Frontend Blog with some articles about JavaScript, React, Gatsby, CSS and WP`,
     siteUrl: `https://functionalcode.pl/`,
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,
