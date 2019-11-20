@@ -1,185 +1,97 @@
-<div align="center">
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby's blog starter
+</h1>
 
-![](./assets/gatsby-starter-bee.png)
+Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-</div>
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-# gatsby-starter-bee
+## 🚀 Quick start
 
-![](./assets/screenshot-pc.png)
+1.  **Create a Gatsby site.**
 
-[![Build Status](https://travis-ci.org/JaeYeopHan/gatsby-starter-bee.svg?branch=master)](https://travis-ci.org/JaeYeopHan/gatsby-starter-bee) [![Greenkeeper badge](https://badges.greenkeeper.io/JaeYeopHan/gatsby-starter-bee.svg)](https://greenkeeper.io/)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/JaeYeopHan/gatsby-starter-bee.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JaeYeopHan/gatsby-starter-bee/alerts/)
-[![Lighthouse score: 100/100](https://lighthouse-badge.appspot.com/?score=100)](https://github.com/ebidel/lighthouse-badge)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4b1962ce-6206-4d8f-9516-63be92294198/deploy-status)](https://app.netlify.com/sites/gatsby-starter-bee/deploys)
+    Use the Gatsby CLI to create a new site, specifying the blog starter.
 
-<a href="https://twitter.com/JbeeLjyhanll">
-<img alt="Twitter: JbeeLjyhanll" src="https://img.shields.io/twitter/follow/JbeeLjyhanll.svg?style=social" target="_blank" />
-</a>
+    ```shell
+    # create a new Gatsby site using the blog starter
+    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
+    ```
 
-[한국어🇰🇷](./README.ko.md)
+1.  **Start developing.**
 
-> Blog Starter Pack based on [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog)
+    Navigate into your new site’s directory and start it up.
 
-In this template...
+    ```shell
+    cd my-blog-starter/
+    gatsby develop
+    ```
 
-- 💄 Code highlight with Fira Code font
-- 🧙 CLI Tool
-- 😄 Emoji (emojione)
-- 🗣 Social share feature (Twitter, Facebook)
-- 💬 Comment feature (disqus, utterances)
-- ☕ 'Buy me a coffee' service
-- 🤖 GA
-- ⭐ Enhance UX
-- ⚙ Configurable
+1.  **Open the source code and start editing!**
 
-> [Gatsby Starters Docs](https://www.gatsbyjs.org/starters/JaeYeopHan/gatsby-starter-bee/)
+    Your site is now running at `http://localhost:8000`!
 
-## Demo
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-- [Default Theme](https://gatsby-starter-bee.netlify.com/)
+    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## Use case
+## 🧐 What's inside?
 
-- [JBEE.io](https://jbee.io)
-- [Rinae's devlog](https://rinae.dev/)
-- [Seungdols Company](https://seungdols.dev/)
-- [Kooku's log](https://kooku.netlify.com/)
-- [SOSOLOG](https://so-so.dev/)
-- [delivan.dev](https://delivan.dev/)
-- [Jungin's blog](https://jungin.netlify.com/)
-- [Zero's blog](https://awesomezero.com/)
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-> If you're using this template, Please Pull Request for `Use case`!
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-## 😎 Quick Start
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-### 1. Create a Gatsby site.
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-```sh
-# create a new Gatsby site using the blog starter
-$ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-> If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-```sh
-$ npm install -g gatsby-cli
-$ gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-### 2. Start developing.
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-```sh
-$ cd my-blog-starter/
-$ npm start
-# open localhost:8000
-```
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-### 3. Add your content
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-You can write...
+9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-- contents to blog in `content/blog` directory.
-- resume `content/__about` directory.
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-> With markdown syntax and some meta data
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-#### Support script for creating new post
+12. **`README.md`**: A text file containing useful reference information about your project.
 
-![](assets/cli-tool-example.gif)
+## 🎓 Learning Gatsby
 
-```sh
-$ npm run post
-```
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-### 4. Fix meta data
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-You can fix meta data of blog in `/gatsby-meta-config.js` file.
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-### 5. Publish with [netlify](https://netlify.com)
+## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JaeYeopHab/gatsby-starter-bee)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
 
-:bulb: if you want to deploy github pages, add following script to package.json
-
-```json
-"scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${your github id}/${github page name}.github.io.git'"
-}
-```
-
-## 🧐 Customize!
-
-### ⚙ Gatsby config
-
-```
-/root
-├── gatsby-browser.js // font, polyfill, onClientRender ...
-├── gatsby-config.js // Gatsby config
-├── gatsby-meta-config.js // Template meta config
-└── gatsby-node.js // Gatsby Node config
-```
-
-### ⛑ Structure
-
-```
-src
-├── components // Just component with styling
-├── layout // home, post layout
-├── pages // routing except post: /(home), /about
-├── styles
-│   ├── code.scss
-│   ├── dark-theme.scss
-│   ├── light-theme.scss
-│   └── variables.scss
-└── templates
-    ├── blog-post.js
-    └── home.js
-```
-
-### 🎨 Style
-
-You can customize color in `src/styles` directory.
-
-```
-src/styles
-├── code.scss
-├── dark-theme.scss
-├── light-theme.scss
-└── variables.scss
-```
-
-### 🍭 Tips (You can change...)
-
-- Profile image! (replace file in `/content/assets/profile.png`)
-- Favicon image! (replace file in `/content/assets/felog.png`)
-- Header gradient! (\$theme-gradient `/styles/variables.scss`)
-- Utterances repository! (replace repository address in `/gatsby-meta-config.js`)
-
-## ☕ Like it?
-
-<a href="https://www.buymeacoffee.com/jbee" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-## 🤔 If...
-
-If you are currently writing in the Medium, consider migration with [medium-to-own-blog](https://github.com/mathieudutour/medium-to-own-blog)!
-
-## :bug: Bug reporting
-
-[Issue](https://github.com/JaeYeopHan/gatsby-starter-bee/issues)
-
-## 🎁 Contributing
-
-[Contributing guide](./CONTRIBUTING.md)
-
-## LICENSE
-
-[MIT](./LICENSE)
-
-<div align="center">
-
-<sub><sup>Project by <a href="https://github.com/JaeYeopHan">@Jbee</a></sup></sub><small>✌</small>
-
-</div>
+<!-- AUTO-GENERATED-CONTENT:END -->
