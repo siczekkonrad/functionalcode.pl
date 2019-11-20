@@ -63,7 +63,8 @@ const Bio = () => {
           </a><br />
         </span>
         <p className="author-introduction">
-          JavaScript, React, Gatsby, CSS and WP.
+          JavaScript, React, Gatsby, CSS and WP.<br />
+          Functional Programming.
         </p>
       </div>
     </div>
