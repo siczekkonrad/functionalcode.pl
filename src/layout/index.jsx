@@ -13,17 +13,19 @@ export const Layout = ({ location, title, children }) => {
 
   return (
     <React.Fragment>
-      <Top title={title} location={location} rootPath={rootPath} />
       <div
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(35),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <ThemeSwitch />
-        <Header title={title} location={location} rootPath={rootPath} />
+        <header className="site-header">
+          <Header title={title} location={location} rootPath={rootPath} />
+          <ThemeSwitch />
+        </header>
+
         {children}
         <Footer />
       </div>

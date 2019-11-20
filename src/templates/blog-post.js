@@ -15,6 +15,8 @@ import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 
 import '../styles/code.scss'
+import { Header } from '../components/header'
+import { PostDate } from '../components/post-date'
 
 export default ({ data, pageContext, location }) => {
   useEffect(() => {
@@ -26,11 +28,13 @@ export default ({ data, pageContext, location }) => {
   const metaData = data.site.siteMetadata
   const { title, comment, siteUrl, author, sponsor } = metaData
   const { disqusShortName, utterances } = comment
+  const rootPath = `${__PATH_PREFIX__}/`
 
   return (
     <Layout location={location} title={title}>
       <Head title={post.frontmatter.title} description={post.excerpt} />
       <PostTitle title={post.frontmatter.title} />
+      <PostDate date={post.frontmatter.date} />
       <PostContainer html={post.html} />
       <SocialShare title={post.frontmatter.title} author={author} />
       {!!sponsor.buyMeACoffeeId && (
@@ -39,15 +43,6 @@ export default ({ data, pageContext, location }) => {
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
-      {!!disqusShortName && (
-        <Disqus
-          post={post}
-          shortName={disqusShortName}
-          siteUrl={siteUrl}
-          slug={pageContext.slug}
-        />
-      )}
-      {!!utterances && <Utterences repo={utterances} />}
     </Layout>
   )
 }
@@ -74,7 +69,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMM DD, YYYY")
       }
     }
   }
