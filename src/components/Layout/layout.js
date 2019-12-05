@@ -14,7 +14,6 @@ const Layout = (props) => {
       <h1
         className="siteTitle"
         style={{
-          ...scale(1),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
