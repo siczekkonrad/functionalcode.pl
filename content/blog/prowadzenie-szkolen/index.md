@@ -1,7 +1,7 @@
 ---
 title: Prowadzenie szkoleń
 date: "2019-12-05T22:40:32.169Z"
-description: Na podstawie "pierwszych" dobrych doświadczeń i poznaniu dobrych praktyk posługiwania się ReactJS i jego ekosystemem - rozpocząłem drogę do zmiany ścieżki kariery z "klapacza stron" na React / JavaScript Developera.
+description: Na podstawie "pierwszych" dobrych doświadczeń i poznaniu dobrych praktyk posługiwania się ReactJS i jego ekosystemem - rozpocząłem drogę do zmiany ścieżki kariery z "klepacza stron" na React / JavaScript Developera.
 category: ogólne
 ---
 
@@ -22,7 +22,7 @@ Realizowałem kolejne małe projekty : listy TODO, Blogi, aplikacje do przeszuki
 
 Z pomocą przyszedł mi starszy i bardziej doświadczony w ReactJS kolega. Jako, że prowadzi on szkolenia komercyjne  oraz jest prelegentem na różnych frontendowych i ogólno programistycznych konferencjach to na dobry początek skierował mnie ku dobrej drodze nauki - usystematyzowałem aktualną wiedzę oraz dzięki jego pomocy i jednemu z jego szkoleń przyswoiłem ideę technologii Redux. Stało się to w czasie gdy chciałem zrezygnował z dalszej nauki tego narzędzia do zarządzania stanem aplikacji - wykorzystywanej nie tylko z połączeniu z ReactJS. (Więcej na ten temat w przyszłych wpisach).
 
-Na podstawie "pierwszych" dobrych doświadczeń i poznaniu dobrych praktyk posługiwania się ReactJS i jego ekosystemem - rozpocząłem drogę do zmiany ścieżki kariery z "klapacza stron" na React / JavaScript Developera.
+Na podstawie "pierwszych" dobrych doświadczeń i poznaniu dobrych praktyk posługiwania się ReactJS i jego ekosystemem - rozpocząłem drogę do zmiany ścieżki kariery z "klepacza stron" na React / JavaScript Developera.
 Po drodze trafiłem na kilka świetnych żródeł min. kursy Adama Romańskiego - dzięki któremu chwyciłem ponowną "zajawkę' do kodowania oraz nazwałem kilka rzeczy poza programowaniem, bardziej związanych z mentalnością osoby "początkującej" tj. "iimpostor syndrome". Swoją drogą wybieram się na jego event "Hello  Roman & Friends",  który odbędzie się w drugiej połowie grudnia w Poznaniu.  (Na ten temat wrzucę coś przed swiętami) .
 
 Szkolenia??? 
