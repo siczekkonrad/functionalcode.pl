@@ -32,7 +32,7 @@ const BlogIndex = (props) => {
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
-              <p>{node.frontmatter.category}</p>
+              <small className={'category'}>{node.frontmatter.category}</small>
             </header>
             <section>
               <p
@@ -68,7 +68,8 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD.MM YYYY")
             title
-            description
+            description,
+            category
           }
         }
       }
