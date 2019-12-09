@@ -35,12 +35,27 @@ const BlogPostTemplate = props => {
           <p
             style={{
               ...scale(-1 / 5),
-              display: `block`,
+              display: `inline-block`,
               marginBottom: rhythm(1),
             }}
           >
             {post.frontmatter.date}
           </p>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: `inline-block`,
+              lineHeight: `1.5`,
+              marginBottom: rhythm(1),
+              marginLeft: `10px`,
+              background: `#ecf0f2`,
+              padding: `0 5px`,
+              borderRadius: `5px`
+            }}
+          >
+            {post.frontmatter.category}
+          </p>
+          
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -105,8 +120,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD.MM YYYY")
         description
+        category
       }
     }
   }
