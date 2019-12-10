@@ -1,9 +1,23 @@
 .article{
-    &Title a{
-        color:  #5ccfe6;
+    background: #f8f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    &Title {
+        margin-top: 0;
+        a {
+            color: #5ccfe6;
+        }
     }
     &Header {
         margin-bottom: 1em;
+
+    }
+
+    section {
+        p {
+            margin-top: 1.25rem;
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -15,7 +29,7 @@ a {
     margin-left: 10px;
     line-height: 1.5;
     display: inline-block;
-    background: #ecf0f2;
+    background: #c9cfd2;
     padding: 2px 5px;
     border-radius: 5px;
 }
