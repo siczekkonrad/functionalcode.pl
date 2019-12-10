@@ -6,6 +6,8 @@
         margin-top: 0;
         a {
             color: #5ccfe6;
+
+            &:hover {opacity: 0.8}
         }
     }
     &Header {
