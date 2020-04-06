@@ -5,12 +5,12 @@ description: Kilka przemyśleń na temat pierwszego szkolenia.
 category: ogólne
 ---
 
-### Witajcie! 
+### Witajcie!!!
 
-Wraz z tym postem chciałbym was zaprosić do odwiedzania i czerpania z wiedzy oraz doświadczeń, które będę zamieszczał na tym blogu.
-Jestem Konrad, mam 20-cia kilka lat i.... no właśnie słabo to brzmi... jak wiele osób swoją prawdziwą przygodę z prawdziwym **frontend**'em rozpocząłem stosunkowo niedawno.
+Wraz z tym postem chciałbym cię zaprosić do odwiedzania i czerpania z wiedzy oraz doświadczeń, którymi będę się dzielił na tym blogu.
+Jestem Konrad i wprowadzę ciebie do mojego świata pełnego kodu.
 
-Słowem wstępu zacznę pokrótce o swojej drodze do obecnego czasu.
+Kim byłem? Jaką drogę przebyłem?
 Mając około siedmiu lat doświadczenia zorientowałem się, że nie prowadzi mnie ono w żadnym fajnym kierunku. Otrzeźwienie przyszło w momencie gdy zdałem sobie sprawę, że to co robię nie daje mi satysfakcji. Mianowicie "klepałem" strony oparte o CMS Wordpress i cały jego "ekosystem", brałem udział w projektach zbudowanych na Magento, custom'owych rozwiązaniach opartych o Symfony, CodeIgniter czy Java. Do swojej przygody mogę zaliczyć epizody z Angular 2+, Ember, KnockoutJS, Vue oraz nieco historyczne ze względu na rozwijający się stale JavaScript  - jQuery. Byłem nałogowym klepaczem chwilę wcześniej wspomnianej biblioteki JavaScript'owej.  Sprawiło to, że stałem się "leniwy", bo po co napisać coś nowego w ES5 / ES6 - kiedy jQuery szybciej to za mnie załatwi.  Proste i bardzo przyjemnie API - nie musiałem się martwić o "chwytanie" elementów DOM - nic tylko pisać. 
 
 Minęło tak kilka lat, aż do końcówki 2016 roku gdzie po krótkiej przygodzie z AngularJS, zająłem się nauką **ReactJS**. Jak potem się okazało - było to pierwsze, niezbyt udane podejście. Zniechęciłem się ze względu na duże braki w samym JavaScripcie, nie rozumiałem sporej ilości tematów z nim związanych co było przeszkodą wtedy nie do przeskoczenia. Zawiesiłem ten temat na ponad 2 lata - uzupełniając luki w mojej javascriptowej wiedzy a w między czasie "katowałem" strony internetowe z Wordpress'em. No i tak "przepadło" sporo cennego czasu, który można było lepiej wykorzystać.
@@ -23,7 +23,7 @@ Realizowałem kolejne małe projekty : listy TODO, Blogi, aplikacje do przeszuki
 Z pomocą przyszedł mi starszy i bardziej doświadczony w ReactJS kolega. Jako, że prowadzi on szkolenia komercyjne  oraz jest prelegentem na różnych frontendowych i ogólno programistycznych konferencjach to na dobry początek skierował mnie ku dobrej drodze nauki - usystematyzowałem aktualną wiedzę oraz dzięki jego pomocy i jednemu z jego szkoleń przyswoiłem ideę technologii Redux. Stało się to w czasie gdy chciałem zrezygnować z dalszej nauki tego narzędzia do zarządzania stanem aplikacji - wykorzystywanej nie tylko z połączeniu z ReactJS. (Więcej na ten temat w przyszłych wpisach).
 
 Na podstawie "pierwszych" dobrych doświadczeń i poznaniu dobrych praktyk posługiwania się ReactJS i jego ekosystemem - rozpocząłem drogę do zmiany ścieżki kariery z "klepacza stron" na **React** / **JavaScript** Developera.
-Po drodze trafiłem na kilka świetnych żródeł min. kursy Adama Romańskiego - dzięki któremu chwyciłem ponowną "zajawkę" do kodowania oraz nazwałem kilka rzeczy poza programowaniem, bardziej związanych z mentalnością osoby "początkującej" tj. "impostor syndrome". Swoją drogą wybieram się na jego event "Hello  Roman & Friends",  który odbędzie się w drugiej połowie grudnia w Poznaniu.  (Na ten temat wrzucę coś przed swiętami) .
+Po drodze trafiłem na kilka świetnych żródeł min. kursy Adama Romańskiego - dzięki któremu chwyciłem ponowną "zajawkę" do kodowania oraz nazwałem kilka rzeczy poza programowaniem, bardziej związanych z mentalnością osoby "początkującej" tj. "impostor syndrome".
 
 Szkolenia??? 
 Pomoc w prowadzeniu???
