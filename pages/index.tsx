@@ -65,34 +65,7 @@ const StyledSocials = styled.ul`
 
 const Home: NextPage = () => {
   return (
-    <StyledWelcomeWrapper>
-      <StyledHeading>
-        <LogoIcon />
-      </StyledHeading>
-      <StyledSocials>
-        <li>
-          <Link href={`https://www.linkedin.com/in/konradsiczek`} passHref>
-            <a>
-              <LinkedinIcon />
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link href={`https://twitter.com/fncodepl`} passHref>
-            <a>
-              <TwitterIcon />
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link href={`https://www.instagram.com/functionalcode`} passHref>
-            <a>
-              <InstagramIcon />
-            </a>
-          </Link>
-        </li>
-      </StyledSocials>
-    </StyledWelcomeWrapper>
+    <></>
   )
 }
 
