@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components'
 import { theme } from '../styles/theme';
 import { Router } from 'next/router';
 import GlobalStyle from '../styles/globalStyle';
-
+import 'tailwindcss/tailwind.css';
 
 NProgress.configure({ showSpinner: true });
 Router.events.on('routeChangeStart', () => NProgress.start());

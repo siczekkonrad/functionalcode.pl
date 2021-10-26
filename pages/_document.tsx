@@ -3,7 +3,7 @@ import React from 'react'
 import { ServerStyleSheet } from 'styled-components'
 // eslint-disable-next-line @next/next/no-document-import-in-page
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Header from '../components/Header'
+import { GoogleFonts } from "next-google-fonts";
 
 class MyDocument extends Document<any> {
   static async getInitialProps(ctx: DocumentContext) {
@@ -40,6 +40,8 @@ class MyDocument extends Document<any> {
   render() {
     return (
       <Html>
+        <GoogleFonts href="https://fonts.googleapis.com/css2?family=family=Montserrat:wght@200;300;400;500;600;700&display=swap" />
+
         <Head>
           {this.props.styleTags /*rendering the actually stylesheet*/}
         </Head>

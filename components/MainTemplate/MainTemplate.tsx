@@ -1,12 +1,12 @@
 import Header from "../Header";
+import Layout from "../Layout/Layout";
 
 const MainTemplate = (props: any) => {
-  const { children } = props;
 
   return (
     <>
       <Header />
-      {children}
+      <Layout {...props} />
     </>
   )
 }
