@@ -4,7 +4,7 @@ import { LogoIcon } from '../icons/Logo'
 import styled from 'styled-components'
 
 const StyledLogo = styled.a`
-  width: 29rem;
+  width: 45rem;
 
   svg {
     width: 100%;

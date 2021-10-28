@@ -5,6 +5,9 @@ import { StyledNav } from './Navigation.style';
 const Navigation = () => {
   return (
     <StyledNav className='ml-20'>
+      <Link href="/" passHref>
+        <a>Home</a>
+      </Link>
       <Link href="/blog" passHref>
         <a>Blog</a>
       </Link>

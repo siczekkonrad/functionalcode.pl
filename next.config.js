@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  reactStrictMode: true,
-  target: "serverless"
-}
+const withMDX = require('@next/mdx')()
+module.exports = withMDX({
+  pageExtensions: ['ts', 'tsx', 'md', 'mdx'], // Replace `jsx?` with `tsx?`
+  swcMinify: true,
+})
+

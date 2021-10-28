@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './data/**.mdx'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
@@ -9,6 +9,7 @@ module.exports = {
       bg: '#182b48',
       navLink: 'rgba(174,221,255,.6)',
       white: '#fff',
+      postTile: 'rgba(255,255,255,.1)',
     },
     fontSize: {
       1: '0.8rem',

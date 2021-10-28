@@ -1,7 +1,8 @@
-import Link from 'next/link'
 import { getAllPosts } from '../utils/mdx'
 import React from 'react'
 import MainTemplate from '../components/MainTemplate'
+import PostTile from '../components/PostTile';
+import PageHero from 'components/PageHero/PageHero';
 
 export interface IBlogProps {
   posts: {
@@ -15,14 +16,12 @@ export interface IBlogProps {
 const Blog: React.FC<IBlogProps> = ({ posts }) => {
   return (
     <MainTemplate>
-      <h1>All posts</h1>
-      <ul>
-        {posts.map((post: any, index: number) => (
-          <li key={index}>
-            <Link href={`/blog/${post.slug}`} passHref><a>{post.frontmatter.title}</a></Link>
-          </li>
+      <PageHero title="Blog" />
+      <div className="grid grid-cols-2 gap-60">
+        {posts?.map((post: any, index: number) => (
+          <PostTile post={post} key={index} />
         ))}
-      </ul>
+      </div>
     </MainTemplate>
   )
 }

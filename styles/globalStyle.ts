@@ -1,6 +1,6 @@
 import { mediaQueries, theme } from "./theme";
 import { createGlobalStyle } from "styled-components";
-
+import Mark from './../public/code.svg';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -17,13 +17,20 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     font-size: 62.5% !important;
     scroll-behavior: smooth;
+    height: -webkit-fill-available;
   }
 
   body {
     font-size: 2rem;
     background: ${theme.colors.bg};
+    // background-image: url(${Mark.src});
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
     color: ${theme.colors.white};
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
   }
 
  #nprogress {

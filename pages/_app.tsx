@@ -4,7 +4,6 @@ import Head from 'next/head'
 import React, { FC } from 'react'
 import NProgress from 'nprogress'
 import { ThemeProvider } from 'styled-components'
-// import Layout from '../components/Layout/Layout'
 import { theme } from '../styles/theme';
 import { Router } from 'next/router';
 import GlobalStyle from '../styles/globalStyle';
@@ -15,11 +14,11 @@ Router.events.on('routeChangeStart', () => NProgress.start());
 Router.events.on('routeChangeComplete', () => NProgress.done());
 Router.events.on('routeChangeError', () => NProgress.done());
 
-const NOOP: FC = ({ children }) => <>{children}</>;
+const EL = ({ children }: any) => <>{children}</>;
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-  const Layout = (Component as any).Layout || NOOP;
+  const Layout = (Component as any).Layout || EL;
 
   return (
     <React.Fragment>

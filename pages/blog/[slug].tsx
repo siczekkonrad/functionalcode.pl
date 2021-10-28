@@ -2,9 +2,9 @@ import { getMDXComponent } from 'mdx-bundler/client'
 import { GetStaticProps } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 import React, { useMemo } from 'react'
-import Container from '../../components/Container'
 import MainTemplate from '../../components/MainTemplate'
 import { getAllPosts, getSinglePost } from '../../utils/mdx'
+
 
 export interface IPostProps {
   code: string
@@ -14,7 +14,8 @@ export interface IPostProps {
 }
 
 const Post: React.FC<IPostProps> = ({ code, frontmatter }) => {
-  const Component = getMDXComponent(code)
+  const Component = getMDXComponent(code);
+
   return (
     <MainTemplate>
       <Component />

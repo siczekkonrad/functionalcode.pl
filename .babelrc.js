@@ -3,9 +3,11 @@ module.exports = {
   plugins: [
     'preval',
     [
-      'babel-plugin-styled-components',
+      "styled-components",
       {
-        ssr: true
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
       }
     ]
   ]
