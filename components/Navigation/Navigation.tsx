@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-import { StyledNav } from './Navigation.style';
+import styles from './navigation.module.scss';
 
 const Navigation = () => {
   return (
-    <StyledNav className='ml-20'>
+    <nav className={styles.navigation}>
       <Link href="/" passHref>
         <a>Home</a>
       </Link>
@@ -14,7 +14,7 @@ const Navigation = () => {
       <Link href="/o-mnie" passHref>
         <a>O mnie</a>
       </Link>
-    </StyledNav>
+    </nav>
   )
 }
 

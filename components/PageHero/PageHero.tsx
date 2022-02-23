@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const StyledPageHero = styled.div`
   padding: 9rem 0;
   margin-bottom: 6rem;
+  text-align: center;
 `;
 
 const StyledPageTitle = styled.h1`
@@ -11,7 +12,7 @@ const StyledPageTitle = styled.h1`
 `;
 
 const PageHero = (props: any) => (
-  <StyledPageHero className='text-center'>
+  <StyledPageHero>
     <StyledPageTitle>{props.title}</StyledPageTitle>
   </StyledPageHero>
 )

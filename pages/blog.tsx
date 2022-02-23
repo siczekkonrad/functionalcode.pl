@@ -3,6 +3,7 @@ import React from 'react'
 import MainTemplate from '../components/MainTemplate'
 import PostTile from '../components/PostTile';
 import PageHero from 'components/PageHero/PageHero';
+import BlogGrid from 'components/BlogGrid/BlogGrid';
 
 export interface IBlogProps {
   posts: {
@@ -17,11 +18,11 @@ const Blog: React.FC<IBlogProps> = ({ posts }) => {
   return (
     <MainTemplate>
       <PageHero title="Blog" />
-      <div className="grid grid-cols-2 gap-60">
+      <BlogGrid>
         {posts?.map((post: any, index: number) => (
           <PostTile post={post} key={index} />
         ))}
-      </div>
+      </BlogGrid>
     </MainTemplate>
   )
 }

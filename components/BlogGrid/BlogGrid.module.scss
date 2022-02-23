@@ -1,0 +1,8 @@
+.blogGrid {
+  display: grid;
+  gap: 6rem;
+  
+  // @media screen and (min-width: ${ theme.screens.md }){
+    grid-template-columns: repeat(2, 1fr);
+  // }
+}

@@ -2,18 +2,16 @@ import React from 'react'
 import Container from '../Container/Container';
 import Navigation from '../Navigation';
 import SiteLogo from '../SiteLogo';
-import { StyledHeader } from './Header.style';
+import styles from './header.module.scss';
 
 const Header: React.FC = () => {
   return (
-    <StyledHeader
-      className="py-10"
-    >
-      <Container className='flex items-center justify-between'>
+    <header className={styles.header}>
+      <Container>
         <SiteLogo />
         <Navigation />
       </Container>
-    </StyledHeader>
+    </header>
   )
 }
 

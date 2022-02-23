@@ -1,13 +1,10 @@
-import '../styles/vendor/nprogress';
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import React, { FC } from 'react'
 import NProgress from 'nprogress'
-import { ThemeProvider } from 'styled-components'
-import { theme } from '../styles/theme';
 import { Router } from 'next/router';
-import GlobalStyle from '../styles/globalStyle';
-import 'tailwindcss/tailwind.css';
+import '../styles/globals.css'
+import '../styles/globalStyle.scss'
 
 NProgress.configure({ showSpinner: true });
 Router.events.on('routeChangeStart', () => NProgress.start());
@@ -26,12 +23,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>FunctionalCode</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <ThemeProvider theme={theme}>
+      <div>
         <Layout pageProps={pageProps}>
-          <GlobalStyle />
           <Component {...pageProps} />
         </Layout>
-      </ThemeProvider>
+      </div>
     </React.Fragment>
   )
 }

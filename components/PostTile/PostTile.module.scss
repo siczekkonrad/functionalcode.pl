@@ -1,6 +1,5 @@
-import styled from 'styled-components'
 
-export const StyledPostTile = styled.article`
+.article {
   background-color: #141D2B;
   border-radius: 1.6rem;
 
@@ -16,11 +15,12 @@ export const StyledPostTile = styled.article`
 
   p {
     font-size: 1.8rem;
+    color: var(--color-white);
   }
 
   &:hover {
     h3 {
-      color: ${({ theme }) => theme.colors.second};
+      color: var(--color-second);
     }
   }
-`;
+}

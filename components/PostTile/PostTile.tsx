@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledPostTile } from './PostTile.style';
+import styles from './PostTile.module.scss'
 import Link from 'next/link'
 
 export interface PostTileProps {
@@ -8,14 +8,14 @@ export interface PostTileProps {
 
 const PostTile: React.FC<PostTileProps> = ({ post }) => {
     return (
-        <StyledPostTile>
+        <article className={styles.article}>
             <Link href={`/blog/${post.slug}`} passHref>
                 <a>
                     <h3>{post.frontmatter.title}</h3>
                     <p>{post.frontmatter.description}</p>
                 </a>
             </Link>
-        </StyledPostTile>
+        </article>
     );
 };
 

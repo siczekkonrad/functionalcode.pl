@@ -41,7 +41,6 @@ class MyDocument extends Document<any> {
     return (
       <Html>
         <GoogleFonts href="https://fonts.googleapis.com/css2?family=family=Montserrat:wght@200;300;400;500;600;700&display=swap" />
-
         <Head>
           {this.props.styleTags /*rendering the actually stylesheet*/}
         </Head>
