@@ -1,0 +1,20 @@
+@mixin mediaquery($query) {
+  $breakpoints: (
+      'xs': '375px',
+      'sm': '500px',
+      'md': '767px',
+      'lg': '993px',
+      'xlg': '1024px',
+      'xl': '1200px',
+      'xxl': '1440px',
+      'xxxl': '1680px',
+  );
+
+  @if map-has-key($breakpoints, $query) {
+    @media screen and #{map-get($breakpoints, $query)} {
+      @content;
+    }
+  } @else {
+    @error "ERROR: No breakpoint specified for query '#{$query}'";
+  }
+}

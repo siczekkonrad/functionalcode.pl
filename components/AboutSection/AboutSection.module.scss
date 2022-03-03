@@ -1,0 +1,78 @@
+.AboutSection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+
+    @media screen and (min-width: 993px) {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    img {
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+    }
+
+    .infoWrapper {
+       
+        @media screen and (min-width: 993px) {
+            margin-top: 8rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 5rem;
+            justify-content: center;
+
+            .data {
+                grid-column: span 2 / span 2;
+            }
+        }
+    }
+
+    .pills {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media screen and (min-width: 769px) {
+            max-width: 80%;
+        } 
+        
+
+        .pill {
+            padding: 1.6rem 2.6rem;
+            background-color:  var(--color-main);
+            color: #141D2B;
+            margin: 0 1rem 1rem 0;
+            font-size: 1.6rem;
+            border-radius: 0.6rem;
+
+            @media screen and (max-width: 768px) {
+                font-size: 1rem;
+                padding: 1.2rem 1.6rem;
+            }
+        }
+    }
+
+    .links {
+        display: flex;
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin: 0 1rem 1rem 0;
+            svg{
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+    }
+}
