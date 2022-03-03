@@ -4,7 +4,6 @@ import Layout from "../Layout/Layout";
 const MainTemplate = (props: any) => {
   return (
     <>
-      <Header />
       <Layout {...props} />
     </>
   )

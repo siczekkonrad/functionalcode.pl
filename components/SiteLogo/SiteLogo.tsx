@@ -1,22 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 import { LogoIcon } from '../icons/Logo'
-import styled from 'styled-components'
-
-const StyledLogo = styled.a`
-  width: 45rem;
-
-  svg {
-    width: 100%;
-  }
-`;
+import styles from './sitelogo.module.scss'
 
 const SiteLogo = () => {
   return (
     <Link href="/" passHref>
-      <StyledLogo className='flex items-center'>
+      <a className={styles.sitelogo}>
         <LogoIcon />
-      </StyledLogo>
+      </a>
     </Link >
   )
 }
